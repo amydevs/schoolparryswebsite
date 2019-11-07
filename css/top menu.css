@@ -1,0 +1,12 @@
+
+.site-nav {
+	text-align: right;
+	color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+}
+a.menu {
+	font-size: 15pt;
+	text-decoration: none;
+	color: black;
+	padding-left: 50px;
+}
