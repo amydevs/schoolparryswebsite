@@ -7,5 +7,3 @@ html * {
   padding: 0;
 }
 
-.menu { transition: all .2s ease-in-out; }
-.menu:hover { transform: scale(1.1); }
