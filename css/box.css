@@ -2,8 +2,9 @@
 
 
 div.box {
+
   width: 100%;
-  padding-bottom: 75%;
+  height: 1000%;
   margin: 0;
 	background: linear-gradient( rgba(2,170,176,1) 0%, rgba(0,205,172,1) 100%);
 	z-index: -1;
@@ -11,7 +12,45 @@ div.box {
 }
 
 .box2 {
-	width: 50%;
-	padding-bottom: 50%;
+	position: relative;
+	width: 100%;
+	height: 1000%;
 	z-index: 0;
+	align-self: center;
+
+}
+.title {
+	text-decoration: none;
+	align-content: center;
+	text-align:center;
+	position: relative;
+	height: 100px;
+    font-family: 'Quicksand', sans-serif;
+	font-size: 200%;
+	
+}
+
+.separator {
+    
+	display: flex;
+    align-items: center;
+    text-align: center;
+	padding-top: 25%;
+}
+
+p.scrolldown {
+
+	vertical-align: bottom;
+	font-size: 10pt;
+	text-align: center;
+	align-self: center;
+	line-height: 300px;
+	bottom: 0;
+}
+
+.milkshakehomepage {
+	height: 50%;
+	width: auto;
+	vertical-align: bottom;
+	
 }
