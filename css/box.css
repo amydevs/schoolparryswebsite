@@ -26,7 +26,8 @@ div.box {
 	position: relative;
 	height: 100px;
     font-family: 'Quicksand', sans-serif;
-	font-size: 200%;
+	font-size: 20pt;
+	vertical-align: middle;
 	
 }
 
@@ -39,18 +40,18 @@ div.box {
 }
 
 p.scrolldown {
-
 	vertical-align: bottom;
 	font-size: 10pt;
 	text-align: center;
 	align-self: center;
-	line-height: 300px;
+	line-height: auto;
 	bottom: 0;
 }
 
 .milkshakehomepage {
-	height: 50%;
-	width: auto;
+	padding-top: 20%;
+	height: auto;
+	width: 40%;
 	vertical-align: bottom;
 	
 }

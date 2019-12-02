@@ -4,7 +4,7 @@
 	color: aliceblue;
     font-family: 'Roboto', sans-serif;
 	position: fixed;
-	z-index: 0;
+	z-index: 1;
 	width: 100%; 
 	
 }
@@ -13,7 +13,7 @@ a.menu {
 	text-decoration: none;
 	color: white;
 	padding-left: 50px;
-	z-index: 0;
+	z-index: 1;
 }
 
 
@@ -21,6 +21,6 @@ a.menu {
 width: 100%;
 padding-top: 10px;
 padding-right: 0;
-	z-index: 0;
+	z-index: 1;
 	top: 0;
 }
