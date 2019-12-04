@@ -4,7 +4,7 @@
 div.box {
 
   width: 100%;
-  height: 1000%;
+  height: 800%;
   margin: 0;
 	position: relative;
 	background: linear-gradient( rgba(2,170,176,1) 0%, rgba(0,205,172,1) 100%);
@@ -42,7 +42,7 @@ div.box {
 }
 
 p.scrolldown {
-	color: rgba(2,170,176,1) 0%, rgba(0,205,172,1) 100%);
+	
 	vertical-align: bottom;
 	font-size: 10pt;
 	text-align: center;
@@ -52,15 +52,17 @@ p.scrolldown {
 }
 
 .milkshakehomepage {
-	padding-top: 20%;
+	position: absolute;
 	height: auto;
 	width: 40%;
-	vertical-align: bottom;
+	float: left;
+	bottom: 0;
+	left: 0;
 	
 }
 .parallax {
 	 /* The image used */
-  background-image: url("../images/r0_90_1302_822_w1200_h678_fmax.jpg");
+  background-image: url("../images/DIY-Unicorn-Milkshake.jpg");
   /* Set a specific height */
   height: 1000%;
 

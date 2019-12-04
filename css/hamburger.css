@@ -27,7 +27,6 @@
 {
   text-decoration: none;
   color: #232323;
-  
   transition: color 0.3s ease;
 }
 
@@ -64,8 +63,8 @@
   height: 4px;
   margin-bottom: 5px;
   position: relative;
-  
-  background: #ffffff;
+  opacity: 70%;
+  background: #2f2f2f;
   border-radius: 3px;
   
   z-index: 1;
