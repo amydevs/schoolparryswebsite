@@ -7,3 +7,16 @@ html * {
   padding: 0;
 }
 
+mark {
+	background-color: rgba(0,0,0,.5);
+	line-height: 35px;
+	color: aliceblue;
+}
+
+#helpme {
+	background-color: rgba(0,0,0,.5);
+	vertical-align: middle;
+	position: sticky;
+	padding-top: 20px;
+	height: 20%;
+}
