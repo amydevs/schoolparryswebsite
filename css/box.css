@@ -72,3 +72,14 @@ div.box {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+#helpmepls {
+	float: right;
+	width: 40%;
+	font-size: 15pt;
+bottom: 0;
+	position: absolute;
+	right: 0;
+}
+
+
