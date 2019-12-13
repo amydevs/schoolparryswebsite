@@ -95,6 +95,10 @@ ol li:nth-child(3) a span::before,
 ol li:nth-child(3) a span::after {
     content: '\f0e1';
 }
+ol li:nth-child(4) a span::before,
+ol li:nth-child(4) a span::after {
+    content: '\f058';
+}
 ol li:nth-child(1) a span::after {
     background: #3b5999;
     color: #fff;
@@ -105,6 +109,10 @@ ol li:nth-child(2) a span::after {
     color: #fff;
 }
 ol li:nth-child(3) a span::after {
+    background: #0077b5;
+    color: #fff;
+}
+ol li:nth-child(4) a span::after {
     background: #0077b5;
     color: #fff;
 }
