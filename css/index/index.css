@@ -1,5 +1,19 @@
 /* CSS Document */
 
+mark {
+	background-color: rgba(0,0,0,.5);
+	line-height: 35px;
+	color: aliceblue;
+}
+
+#helpme {
+	background-color: rgba(0,0,0,.5);
+	vertical-align: middle;
+	position: sticky;
+	padding-top: 20px;
+	height: 20%;
+}
+
 
 div.box {
 
@@ -63,7 +77,7 @@ div.box {
 }
 .parallax {
 	 /* The image used */
-  background-image: url("../images/DIY-Unicorn-Milkshake.jpg");
+  background-image: url("../../images/DIY-Unicorn-Milkshake.jpg");
   /* Set a specific height */
   height: 1000%;
 
@@ -89,7 +103,7 @@ div.box {
 }
 .parallax2 {
 	 /* The image used */
-  background-image: url("../images/1434133241-milkshakes.jpg");
+  background-image: url("../../images/1434133241-milkshakes.jpg");
   /* Set a specific height */
   height: 1000%;
 
