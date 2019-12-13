@@ -1,70 +1,115 @@
-/* SCSS Document */
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
 ol {
-  position:absolute;
-  top:50%;
-  left:50%;
-  transform: translate(-50%, -50%);
-  margin:0;
-  padding:0;
-  display:flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
-
 ol li {
-  list-style: none;
+    position: relative;
+    list-style: none;
+    margin: 0 50px;
 }
-
+ol li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 40px;
+    height: 8px;
+    background: #000;
+    border-radius: 50%;
+    transition: 0.5s;
+    opacity: 0;
+    filter: blur(2px);
+    transform: scale(0.8);
+}
+ol li:hover::before {
+    transition-delay: 0.2s;
+    opacity: 0.2;
+    transform: scale(1);
+}
 ol li a {
-  position: relative;
-  width:60px;
-  height:60px;
-  display:block;
-  text-align:center;
-  margin:0 10px;
-  border-radius: 50%;
-  padding: 6px;
-  box-sizing: border-box;
-  text-decoration:none;
-  box-shadow: 0 10px 15px rgba(0,0,0,0.3);
-  background: linear-gradient(0deg, #ddd, #fff);
-  transition: .5s;
+    width: 40px;
+    height: 40px;
+    display: block;
+    transition: 0.5s;
+}
+ol li:hover a {
+    transform: translateY(-10px);
+}
+ol li a span  {
+    width: 100%;
+    height: 100%;
+}
+ol li a span::before {
+    font-family: fontAwesome;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    color: #262626;
+    transform-origin: top;
+    transition: transform 0.5s;
+}
+ol li:hover a span::before {
+    transform: rotateX(90deg) translateY(-50%);
+}
+ol li a span::after {
+    font-family: fontAwesome;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: #fff;
+    color: #262626; */
+    transform-origin: bottom;
+    transition: transform 0.5s;
+    transform: rotateX(90deg) translateY(50%);
+}
+ol li:hover a span::after {
+    transform: rotateX(0deg) translateY(0);
+}
+ol li:nth-child(1) a span::before,
+ol li:nth-child(1) a span::after {
+    content: '\f09a';
+}
+ol li:nth-child(2) a span::before,
+ol li:nth-child(2) a span::after {
+    content: '\f099';
+}
+ol li:nth-child(3) a span::before,
+ol li:nth-child(3) a span::after {
+    content: '\f0d5';
+}
+ol li:nth-child(4) a span::before,
+ol li:nth-child(4) a span::after {
+    content: '\f0e1';
+}
+ol li:nth-child(1) a span::after {
+    background: #3b5999;
+    color: #fff;
+}
+ol li:nth-child(2) a span::after {
+    background: #55acce;
+    color: #fff;
+}
+ol li:nth-child(3) a span::after {
+    background: #dd4b39;
+    color: #fff;
+}
+ol li:nth-child(4) a span::after {
+    background: #0077b5;
+    color: #fff;
 }
 
-ol li a:hover {
-  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
-}
-
-ol li a .fa {
-  widht: 100%;
-  height:100%;
-  display:block;
-  background: linear-gradient(0deg, #fff, #ddd);
-  border-radius: 50%;
-  line-height: calc(60px - 12px);
-  font-size:24px;
-  color: #262626;
-  transition: .5s;
-}
-
-ol li:nth-child(1) a:hover .fa {
-  color: #3b5998;
-}
-
-ol li:nth-child(2) a:hover .fa {
-  color: #00aced;
-}
-
-ol li:nth-child(3) a:hover .fa {
-  color: #dd4b39;
-}
-
-ol li:nth-child(4) a:hover .fa {
-  color: #007bb6;
-}
-
-ol li:nth-child(5) a:hover .fa {
-  color: #e4405f;
-}
-.social {
-	z-index: 1;
-}
