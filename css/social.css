@@ -58,6 +58,7 @@ ol li a span::before {
     height: 100%;
     background-color: rgba(0,0,0,.5);
     color: #ffffff;
+	
     transform-origin: top;
     transition: transform 0.5s;
 }
@@ -117,3 +118,30 @@ ol li:nth-child(4) a span::after {
     color: #fff;
 }
 
+
+.end {
+	position: relative;
+	text-decoration: none;
+	margin: 20px;
+	background: -webkit-linear-gradient(90deg, #02AAB0, #00CDAC);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	  transition: 2s;
+}
+.end:hover{
+	background: linear-gradient(#00F5FF, #00CDAC);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#devideme {
+	position: relative;
+	top: 35%;
+
+}
+
+#lol {
+	background: -webkit-linear-gradient(90deg, #02AAB0, #00CDAC);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
