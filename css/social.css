@@ -1,0 +1,70 @@
+/* SCSS Document */
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+ol {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  margin:0;
+  padding:0;
+  display:flex;
+}
+
+ol li {
+  list-style: none;
+}
+
+ol li a {
+  position: relative;
+  width:60px;
+  height:60px;
+  display:block;
+  text-align:center;
+  margin:0 10px;
+  border-radius: 50%;
+  padding: 6px;
+  box-sizing: border-box;
+  text-decoration:none;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+  background: linear-gradient(0deg, #ddd, #fff);
+  transition: .5s;
+}
+
+ol li a:hover {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+ol li a .fa {
+  widht: 100%;
+  height:100%;
+  display:block;
+  background: linear-gradient(0deg, #fff, #ddd);
+  border-radius: 50%;
+  line-height: calc(60px - 12px);
+  font-size:24px;
+  color: #262626;
+  transition: .5s;
+}
+
+ol li:nth-child(1) a:hover .fa {
+  color: #3b5998;
+}
+
+ol li:nth-child(2) a:hover .fa {
+  color: #00aced;
+}
+
+ol li:nth-child(3) a:hover .fa {
+  color: #dd4b39;
+}
+
+ol li:nth-child(4) a:hover .fa {
+  color: #007bb6;
+}
+
+ol li:nth-child(5) a:hover .fa {
+  color: #e4405f;
+}
+.social {
+	z-index: 1;
+}
