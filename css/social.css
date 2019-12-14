@@ -136,7 +136,7 @@ ol li:nth-child(4) a span::after {
 
 #devideme {
 	position: relative;
-	top: 35%;
+	top: 25%;
 
 }
 
@@ -158,4 +158,9 @@ ol li:nth-child(4) a span::after {
 
 .socialpolicy {
 	text-decoration: none;
+}
+
+
+.social {
+	top: 45%;
 }

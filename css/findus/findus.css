@@ -1,0 +1,130 @@
+/* CSS Document */
+#helpme {
+	background-color: rgba(0,0,0,.5);
+	vertical-align: middle;
+	position: sticky;
+	padding-top: 20px;
+	height: 20%;
+}
+
+
+div.box {
+
+  width: 100%;
+  height: 2px;
+  margin: 0;
+	position: relative;
+	background: linear-gradient( 90deg, rgba(2,170,176,1) 0%, rgba(0,205,172,1) 100%);
+	z-index: -1;
+	top:0;
+}
+
+.box2 {
+	position: relative;
+	width: 100%;
+	height: 500%;
+	z-index: -1;
+	align-self: center;
+	background: linear-gradient(to right, #f857a6, #ff5858); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.title {
+	text-decoration: none;
+	align-content: center;
+	text-align:center;
+	position: relative;
+	height: 100px;
+    font-family: 'Quicksand', sans-serif;
+	font-size: 20pt;
+	vertical-align: middle;
+	
+}
+
+.separator {
+    
+	display: flex;
+    align-items: center;
+    text-align: center;
+	padding-top: 25%;
+}
+
+.scrolldown {
+	
+	vertical-align: bottom;
+	font-size: 10pt;
+	text-align: center;
+	align-self: center;
+	line-height: auto;
+	bottom: 0;
+
+}
+
+.milkshakehomepage {
+	position: relative;
+	height: 100%;
+	width: auto;
+	float: left;
+	bottom: 0;
+	left: 0;
+	
+}
+.parallax {
+	 /* The image used */
+  background-image: url("../../images/DIY-Unicorn-Milkshake.jpg");
+  /* Set a specific height */
+  height: 1000%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#helpmepls {
+
+	text-decoration: none;
+	align-content: center;
+	text-align:center;
+	position: relative;
+	height: 100px;
+    font-family: 'Quicksand', sans-serif;
+	font-size: 20pt;
+	vertical-align: middle;
+	padding-top: 25%;
+	padding-bottom: 30%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.parallax2 {
+	 /* The image used */
+  background: linear-gradient( 90deg, rgba(2,170,176,1) 0%, rgba(0,205,172,1) 100%);
+  /* Set a specific height */
+  height: 1000%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+.map {
+	position: relative;
+	right: 0;
+	top: 2.5em;
+}
+
+.maptext {
+	position: absolute;
+}
+
+.absolut {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 600%;
+}
