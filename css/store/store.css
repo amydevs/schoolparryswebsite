@@ -104,6 +104,7 @@ div.box {
   overflow:hidden;
 	min-height: 500%;
 	/* Create the parallax scrolling effect */
+	max-height: 10000%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
