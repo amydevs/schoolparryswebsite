@@ -130,3 +130,8 @@ div.box {
 	height: 100%;
 	top: 570%;
 }
+
+.seperateiconandtext {
+	position: relative;
+	left: 10%;
+}

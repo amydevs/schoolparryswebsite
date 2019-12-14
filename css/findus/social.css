@@ -1,0 +1,169 @@
+/* CSS Document */
+ol {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+	
+}
+ol li {
+    position: relative;
+    list-style: none;
+    margin: 0 10px;
+	
+}
+ol li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 40px;
+    height: 8px;
+    background: #000;
+    border-radius: 50%;
+    transition: 0.5s;
+    opacity: 0;
+    filter: blur(2px);
+    transform: scale(0.8);
+}
+ol li:hover::before {
+    transition-delay: 0.2s;
+    opacity: 0.2;
+    transform: scale(1);
+}
+ol li a {
+    width: 40px;
+    height: 40px;
+    display: block;
+    transition: 0.5s;
+}
+ol li:hover a {
+    transform: translateY(-10px);
+}
+ol li a span  {
+    width: 100%;
+    height: 100%;
+}
+ol li a span::before {
+    font-family: fontAwesome;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+    color: #ffffff;
+	background: -webkit-linear-gradient(90deg, #00F5FF, #00CDAC);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    transform-origin: top;
+    transition: transform 0.5s;
+}
+ol li:hover a span::before {
+    transform: rotateX(90deg) translateY(-50%);
+}
+ol li a span::after {
+    font-family: fontAwesome;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: #fff;
+    color: #262626; */
+    transform-origin: bottom;
+    transition: transform 0.5s;
+    transform: rotateX(90deg) translateY(50%);
+}
+ol li:hover a span::after {
+    transform: rotateX(0deg) translateY(0);
+}
+ol li:nth-child(1) a span::before,
+ol li:nth-child(1) a span::after {
+    content: '\f39e';
+}
+
+ol li:nth-child(2) a span::before,
+ol li:nth-child(2) a span::after {
+    content: '\f1a0';
+}
+ol li:nth-child(3) a span::before,
+ol li:nth-child(3) a span::after {
+    content: '\f0e1';
+}
+ol li:nth-child(4) a span::before,
+ol li:nth-child(4) a span::after {
+    content: '\f058';
+}
+ol li:nth-child(1) a span::after {
+    background: #3b5999;
+    color: #fff;
+}
+
+ol li:nth-child(2) a span::after {
+    background: #dd4b39;
+    color: #fff;
+}
+ol li:nth-child(3) a span::after {
+    background: #0077b5;
+    color: #fff;
+}
+ol li:nth-child(4) a span::after {
+    background: #228b22;
+    color: #fff;
+}
+
+
+.end {
+	position: relative;
+	text-decoration: none;
+	margin: 20px;
+	background: linear-gradient(90deg, #00F5FF, #00CDAC);
+ -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	  transition: 2s;
+}
+.end:hover{
+	background: linear-gradient(#02AAB0, #00CDAC);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#devideme {
+	position: relative;
+	top: 22%;
+
+}
+
+#lol {
+	background: -webkit-linear-gradient(90deg, #00F5FF, #00CDAC);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#policy {
+	font-size: 10pt;
+	position: absolute;
+	bottom: 1%;
+	left: 1%;
+	background: linear-gradient(90deg, #00F5FF, #00CDAC);
+ -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.socialpolicy {
+	text-decoration: none;
+}
+
+
+.social {
+	top: 37%;
+	left: 2%
+}
