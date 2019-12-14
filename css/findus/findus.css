@@ -156,13 +156,17 @@ div.box {
   grid-column-gap: 15px;
 	grid-row-gap: 15px;
 	padding: 10px;
-    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .grid-item {
-
+	background: rgba(0, 0, 0, 0.5);
 	min-height: 350px;
 	max-height: 700px;
 	border-radius: 10px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.brighttext {
+	color: aliceblue;
 }

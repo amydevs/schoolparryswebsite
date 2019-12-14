@@ -101,7 +101,7 @@ div.box {
 	 /* The image used */
   background-image: url("../../images/1434133241-milkshakes.jpg");
   /* Set a specific height */
-  height: 1000%;
+  height: 1100%;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
