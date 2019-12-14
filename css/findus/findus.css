@@ -116,7 +116,7 @@ div.box {
 .map {
 	position: relative;
 	right: 0;
-	top: 2.5em;
+	top: em;
 }
 
 .maptext {
