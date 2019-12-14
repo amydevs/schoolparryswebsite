@@ -1,11 +1,4 @@
 /* CSS Document */
-
-mark {
-	background-color: rgba(0,0,0,.5);
-	line-height: 35px;
-	color: aliceblue;
-}
-
 #helpme {
 	background-color: rgba(0,0,0,.5);
 	vertical-align: middle;
@@ -98,7 +91,7 @@ div.box {
     font-family: 'Quicksand', sans-serif;
 	font-size: 20pt;
 	vertical-align: middle;
-	padding-top: 30%;
+	padding-top: 25%;
 	padding-bottom: 30%;
 	padding-left: 5%;
 	padding-right: 5%;

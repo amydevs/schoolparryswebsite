@@ -123,13 +123,13 @@ ol li:nth-child(4) a span::after {
 	position: relative;
 	text-decoration: none;
 	margin: 20px;
-	background: -webkit-linear-gradient(90deg, #02AAB0, #00CDAC);
-  -webkit-background-clip: text;
+	background: linear-gradient(90deg, #00F5FF, #00CDAC);
+ -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 	  transition: 2s;
 }
 .end:hover{
-	background: linear-gradient(#00F5FF, #00CDAC);
+	background: linear-gradient(#02AAB0, #00CDAC);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -141,7 +141,21 @@ ol li:nth-child(4) a span::after {
 }
 
 #lol {
-	background: -webkit-linear-gradient(90deg, #02AAB0, #00CDAC);
+	background: -webkit-linear-gradient(90deg, #00F5FF, #00CDAC);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+#policy {
+	font-size: 10pt;
+	position: absolute;
+	bottom: 1%;
+	left: 1%;
+	background: linear-gradient(90deg, #00F5FF, #00CDAC);
+ -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.socialpolicy {
+	text-decoration: none;
 }

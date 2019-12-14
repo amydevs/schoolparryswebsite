@@ -1,11 +1,4 @@
 /* CSS Document */
-
-mark {
-	background-color: rgba(0,0,0,.5);
-	line-height: 1.2em;
-	color: aliceblue;
-}
-
 #helpme {
 	background-color: rgba(0,0,0,.5);
 	vertical-align: middle;
