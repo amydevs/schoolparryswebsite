@@ -120,11 +120,13 @@ div.box {
 
 .maptext {
 	position: absolute;
+	font-size: 17pt;
+
 }
 
 .absolut {
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	top: 600%;
+	top: 570%;
 }
