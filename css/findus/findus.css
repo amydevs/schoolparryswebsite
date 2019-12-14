@@ -25,9 +25,8 @@ div.box {
 	z-index: -1;
 	align-self: center;
 	background: linear-gradient(to right, #f857a6, #ff5858); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	  height:auto;
-  overflow:hidden;
-	min-height: 500%;
+	
+	height:500%;
 }
 .title {
 	text-decoration: none;
