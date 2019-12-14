@@ -136,3 +136,33 @@ div.box {
 	position: relative;
 	left: 10%;
 }
+
+#opening {
+		 /* The image used */
+  background: linear-gradient( 90deg, rgba(2,170,176,1) 0%, rgba(0,205,172,1) 100%);
+  /* Set a specific height */
+  height:auto;
+  overflow:hidden;
+	min-height: 500%;
+	/* Create the parallax scrolling effect */
+	max-height: 10000%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	position: static;
+	/*grid*/
+	display: grid;
+  grid-column-gap: 15px;
+	grid-row-gap: 15px;
+	padding: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+}
+
+.grid-item {
+
+	min-height: 350px;
+	max-height: 700px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
