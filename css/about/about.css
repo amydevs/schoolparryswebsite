@@ -70,7 +70,7 @@ div.box {
 }
 .parallax {
 	 /* The image used */
-  background-image: url("../../images/3ef9d60f-fba1-4a37-b9e2-38f1f269e61c.png");
+  background-image: url("../../images/DIY-Unicorn-Milkshake.jpg");
   /* Set a specific height */
   height: 1000%;
 
@@ -91,14 +91,14 @@ div.box {
     font-family: 'Quicksand', sans-serif;
 	font-size: 20pt;
 	vertical-align: middle;
-	padding-top: 30%;
-	padding-bottom: 35%;
+	padding-top: 25%;
+	padding-bottom: 30%;
 	padding-left: 5%;
 	padding-right: 5%;
 }
 .parallax2 {
 	 /* The image used */
-  background-image: url("../../images/1434133241-milkshakes.jpg");
+  background: linear-gradient( 90deg, rgba(2,170,176,1) 0%, rgba(0,205,172,1) 100%);
   /* Set a specific height */
   height: 1000%;
 
@@ -111,3 +111,20 @@ div.box {
 
 
 
+
+.map {
+	position: relative;
+	right: 0;
+	top:3.5%;
+}
+
+.maptext {
+	position: absolute;
+}
+
+.absolut {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 600%;
+}
