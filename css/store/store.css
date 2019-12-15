@@ -185,7 +185,7 @@ div.box {
 
 
 .addtocart {
-	color: green;
+	color: rgba(0,0,0,.5);
 }
 
 .grid-item-checkout {
