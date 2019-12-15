@@ -110,6 +110,7 @@ div.box {
   background-repeat: no-repeat;
   background-size: cover;
 	position: static;
+	
 
 	
 }
@@ -198,11 +199,13 @@ div.box {
 }
 
 .container {
-  background-color: #f2f2f2;
   padding: 5px 20px 15px 20px;
-  border: 1px solid lightgrey;
+  border: 1px solid #ededed;
   border-radius: 3px;
 	margin: 20px;
+	background: #ededed;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
 input[type=text] {

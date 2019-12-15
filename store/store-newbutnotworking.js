@@ -5,7 +5,7 @@ function setCookie(name, cvalue, exdays) {
     var d = new Date();
     d.setTime(d.getTime() + (exdays*24*60*60*1000));
     var expires = "expires="+d.toUTCString();
-    document.cookie = 'ok=' + nameofitem + keycookie; 
+    document.cookie = '1=' + nameofitem + '; expires=' + d.toGMTString() + ';'; 
 }
 
 function setCookie1(cname, cvalue, exdays) {
@@ -14,7 +14,7 @@ function setCookie1(cname, cvalue, exdays) {
     var d = new Date();
     d.setTime(d.getTime() + (exdays*24*60*60*1000));
     var expires = "expires="+d.toUTCString();
-    document.cookie = nameofitem +', '+ keycookie;   
+    document.cookie = '2=' + nameofitem + '; expires=' + d.toGMTString() + ';';   
 }
 function setCookie2(cname, cvalue, exdays) {
 	var keycookie = document.cookie;

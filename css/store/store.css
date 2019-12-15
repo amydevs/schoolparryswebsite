@@ -155,9 +155,10 @@ div.box {
 }
 
 .grid-item {
-	background: #ededed;
+	
 	min-height: 350px;
 	max-height: 700px;
+	background: #ededed;
 	border-radius: 10px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
@@ -176,6 +177,9 @@ div.box {
 	.parallax2 {
      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	}
+	.parallax {
+     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	}
 }
 
 
@@ -185,7 +189,7 @@ div.box {
 }
 
 .grid-item-checkout {
-	background: #4AA84A;
+	background: #4CAF50;
 	min-height: 100px;
 	max-height: 100px;
 	border-radius: 10px;
@@ -194,6 +198,7 @@ div.box {
 
 #checkout {
 	text-decoration: none;
+	color: aliceblue;
 }
 a:link {
   text-decoration: none;
