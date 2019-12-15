@@ -9,7 +9,17 @@ html * {
 
 mark {
 	background-color: rgba(0,0,0,.5);
-	line-height: 35px;
+	line-height: 34px;
+	color: aliceblue;
+	box-shadow:5px 0 0 rgba(0,0,0,.5), -5px 0 0 rgba(0,0,0,.5);
+	padding-left: 0;
+	padding-right: 5px 0;
+	display: inline;
+	box-decoration-break: clone;
+}
+.mark {
+	background-color: rgba(0,0,0,.5);
+	line-height: 16px;
 	color: aliceblue;
 	box-shadow:5px 0 0 rgba(0,0,0,.5), -5px 0 0 rgba(0,0,0,.5);
 	padding-left: 0;
