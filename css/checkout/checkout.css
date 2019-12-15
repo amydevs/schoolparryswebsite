@@ -205,7 +205,7 @@ div.box {
 	margin: 20px;
 	background: #ededed;
 	border-radius: 10px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 input[type=text] {
@@ -228,20 +228,20 @@ label {
 }
 
 .btn {
-  background-color: #4CAF50;
+  background: linear-gradient(270deg, #4CAF50, #45a049);
   color: white;
   padding: 12px;
   margin: 10px 0;
   border: none;
   width: 100%;
-  border-radius: 3px;
+  border-radius: 10px;
   cursor: pointer;
   font-size: 17px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition: 1000ms ;
 }
 
-.btn:hover {
-  background-color: #45a049;
-}
+
 
 span.price {
   float: right;
@@ -255,4 +255,59 @@ span.price {
   .col-25 {
     margin-bottom: 20px;
   }
+}
+.paypalbtn {
+	background: linear-gradient(90deg, #013088, #019cde);
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 17px;
+	margin-top: 2em;
+	
+}
+
+
+
+.input {
+	border-radius: 10px;
+	box-shadow:inset 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+}
+
+#fname {
+	border-radius: 10px;
+	box-shadow:inset 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+}
+
+#email {
+	border-radius: 10px;
+	box-shadow:inset 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+}
+
+#cname {
+	border-radius: 10px;
+	box-shadow:inset 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+}
+
+#ccnum {
+	border-radius: 10px;
+	box-shadow:inset 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+}
+
+#expmonth {
+	border-radius: 10px;
+	box-shadow:inset 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+}
+
+#expyear {
+	border-radius: 10px;
+	box-shadow:inset 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+}
+
+#cvv {
+	border-radius: 10px;
+	box-shadow:inset 0 4px 8px 0 rgba(0, 0, 0, 0.2)
 }
